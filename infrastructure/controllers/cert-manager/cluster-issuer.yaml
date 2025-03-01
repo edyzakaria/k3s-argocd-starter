@@ -6,9 +6,9 @@ metadata:
     argocd.argoproj.io/sync-wave: "1"
 spec:
   acme:
-    # stage server: https://acme-staging-v02.api.letsencrypt.org/directory
-    server: https://acme-v02.api.letsencrypt.org/directory
-    email: youremail@vanillax.xyz
+    server: https://acme-staging-v02.api.letsencrypt.org/directory # staging 
+    # server: https://acme-v02.api.letsencrypt.org/directory # production
+    email: bladeroseig@gmail.com
     privateKeySecretRef:
       name: cloudflare-key
     solvers:

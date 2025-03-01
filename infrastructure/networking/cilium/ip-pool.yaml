@@ -4,7 +4,7 @@ metadata:
   name: main-pool
 spec:
   blocks:
-    - start: "192.168.0.50"
-      stop: "192.168.0.70"
+    - start: "192.168.0.60"
+      stop: "192.168.0.80"
 #    - cidr: "192.168.0.51/28"  # Use "blocks" instead of "cidrs" Usable IPs: 192.168.10.17 to 192.168.10.30
   allowFirstLastIPs: "No"  # Required in Cilium 1.16+ if reserving first/last IPs 
